@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+h1 {
+    color: rgb(155, 112, 18); 
+    background-color: bisque;
+    text-align: center;
+}
+h2{
+    color: rgb(155, 112, 18); 
+    background-color: bisque;
+}
+h4.box{
+    border: 5px solid rgb(173, 148, 95);
+}
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}

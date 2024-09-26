@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+h1{
+    color: rgb(155, 112, 18); 
+    background-color: bisque;
+    text-align: center;
+}
+hr{
+    border: 5px solid rgb(173, 148, 95);
+    border-radius: 5px;
+}
+h2{
+    color: rgb(156, 112, 15); 
+
+}
