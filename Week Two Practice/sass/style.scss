@@ -1,0 +1,49 @@
+body#indexBody {
+    background-color: rgb(209, 200, 170);
+}
+h1#indexh1{
+    color: rgb(4, 45, 82);
+    text-align: center;
+    font-size: 300% ;
+    font-family: 'Lucida Sans', cursive;
+}
+hr#indexhr{
+    border: 2px solid rgb(173, 148, 95);
+}
+a {
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+h1#heading{
+    color: rgb(155, 112, 18); 
+    background-color: bisque;
+    text-align: center;
+
+}
+h2{
+    color: rgb(156, 112, 15); 
+}
+
+
+h4#box{
+    border: 5px solid rgb(173, 148, 95);
+}
+a#newslink{
+    color: #007BFF;
+}
+
+h3#privacyheading{
+    text-align:center;
+}
+hr{
+    border: 5px solid rgb(173, 148, 95);
+    border-radius: 5px;
+}
