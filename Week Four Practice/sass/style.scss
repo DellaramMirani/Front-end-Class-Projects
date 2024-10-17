@@ -1,0 +1,176 @@
+.mainimg {
+    width: 350px;
+    height: 300px;
+}
+
+.rightimg {
+    float: right;
+}
+
+.firstscimg {
+    width: 1500px;
+    height: 600px;
+
+}
+
+.secondIntroHeading {
+    background-image: linear-gradient(rgba(28, 47, 136, 0.066), rgb(9, 43, 140));
+    width: 350px;
+    float: left;
+    padding: 20px;
+    margin: 10px;
+    position: relative;
+
+}
+
+.firstheading {
+    text-align: center;
+    color: rgb(192, 197, 216);
+    background-color: rgb(55, 90, 119);
+}
+
+.introheading {
+    max-width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(rgba(28, 47, 136, 0.066), rgb(14, 102, 173), rgb(28, 54, 167), rgb(14, 37, 133));
+    padding: 80px;
+    margin: 10px;
+}
+
+.blacklink {
+    color: black;
+    text-decoration: none;
+}
+
+.centreheading {
+    text-align: center;
+
+}
+
+.thirdheading {
+    background-image: linear-gradient(rgba(28, 47, 136, 0.066), rgb(9, 43, 140));
+    width: 350px;
+    float: right;
+    padding: 20px;
+    margin: 10px;
+}
+
+hr {
+    border: 2px solid black;
+}
+
+.blog-body,
+.portfolio-body,
+.Contact-body,
+.privacy-body {
+    background-color: rgb(191, 215, 237);
+    margin: 20px;
+    line-height: 1.6;
+}
+
+.blog-img-types {
+    width: 130px;
+    height: 130px;
+    margin: 20px;
+
+}
+
+.blog-img-ipcamera2 {
+    margin: 10px;
+}
+
+.portfolio-div-exp , .contact-info {
+    color: rgb(25, 25, 117);
+    background-color: rgb(124, 165, 175);
+    text-align: center;
+    border: 2px;
+    margin: 5px;
+    padding: 15px;
+}
+
+.portfolio-img-Camera-Man {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.blog-table {
+    width: 100%;
+
+    &,
+    tr,
+    td,
+    th {
+        border: 1px solid rgb(255, 255, 255);
+        border-collapse: collapse;
+    }
+}
+
+.blog-table , 
+.privacy-table {
+    & tr:nth-child(1) {
+        background-color: gray;
+    }
+
+    & tr:nth-child(2) {
+        background-color: rgb(124, 165, 175);
+    }
+
+    & tr:nth-child(3) {
+        background-color: rgb(124, 165, 175);
+    }
+
+    & tr:nth-child(4) {
+        background-color: rgb(124, 165, 175);
+    }
+
+    & tr:nth-child(5) {
+        background-color: rgb(124, 165, 175);
+    }
+
+    & tr:nth-child(6) {
+        background-color: rgb(124, 165, 175);
+    }
+
+    & tr:nth-child(7) {
+        background-color: rgb(124, 165, 175);
+    }
+
+    & tr:nth-child(8) {
+        background-color: rgb(124, 165, 175);
+    }
+
+}
+
+.h1-table {
+    background-color: rgb(94, 129, 141);
+    color: white;
+    display: inline;
+}
+
+a {
+    text-align: center;
+}
+iframe{
+    width: 40%;
+    border: 2px solid black;
+}
+.contact-p1{
+    border: 5px solid rgb(124, 165, 175);
+    margin: 2%;
+    padding: 2%;
+}
+
+.h1blue{
+    color: rgb(214, 229, 233);
+    background-color: rgb(55, 90, 119);    
+}
+.h2blue{
+    color: rgb(255, 255, 255);
+    background-color: rgb(117, 149, 175);  
+    display: inline;
+}
+
+
+
