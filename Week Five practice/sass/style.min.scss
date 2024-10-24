@@ -1,0 +1,365 @@
+h1{
+    text-align: center;
+}
+table{
+    width: 100%;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td, tr , th{
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+a{
+    display: block;
+}
+
+.green-table{
+    Th{
+        background-color: rgb(114, 167, 114);
+    }
+    & tr:nth-child(even){
+        background-color: lightgray;
+    }
+}
+.green-heading{
+    margin: 15px;
+    padding: 20px;
+    background-color: rgb(220, 220, 228);
+    color: rgb(86, 151, 86);
+    text-align: center;
+}
+
+
+.pink-heading{
+    text-align: center;
+    margin: 15px;
+    padding: 20px;
+    color: rgb(175, 116, 126);
+    background-color: rgb(220, 220, 228);
+
+}
+.pink-table{
+    &  tr:hover{
+        background-color: pink;
+    }
+}
+
+
+.orange-heading{
+    margin: 15px;
+    padding: 20px;
+    background-color: rgb(220, 220, 228);
+    color: rgb(233, 159, 23);
+    text-align: center;
+}
+.orange-table{
+    & thead{
+        & tr{
+        background-color: black;}
+    }
+    & tr{
+        & td:first-child{
+            background-color: black;
+            border: 2px solid white;
+        }
+    }
+    tbody{
+        & tr:nth-child(odd){
+            background-color: orange;
+        }
+    }
+}
+.puprle-heading{
+    margin: 15px;
+    padding: 20px;
+    background-color: rgb(220, 220, 228);
+    color: rgb(179, 8, 179);
+    text-align: center;
+}
+.purple-table{
+        td:hover{
+            background-color: rgb(158, 46, 158);
+        }
+        & thead{
+            th{
+                background-color: rgb(158, 46, 158);
+            }
+        }
+    }
+.red-heading{
+    margin: 15px;
+    padding: 20px;
+    background-color: rgb(220, 220, 228);
+    color: red;
+    text-align: center;
+}  
+.red-table{
+    th{
+        background-color: lightblue;
+    }
+    & th:first-child{
+        background-color: blue;
+    }
+    & tr{
+        & td:first-child{
+            background-color: lightblue;
+        }
+    }
+    & tr:first-child{
+        & td:nth-child(2){
+            background-color: yellow;
+        }
+    }
+    & tr:nth-child(2){
+        & td:nth-child(3){
+            background-color: yellow;
+        }
+    }
+    & tr:nth-child(3){
+        & td:nth-child(4){
+            background-color: yellow;
+        }
+    }
+    & tr:nth-child(4){
+        & td:nth-child(5){
+            background-color: yellow;
+        }
+    }
+    & tr:nth-child(4){
+        & td:nth-child(5){
+            background-color: yellow;
+        }
+    }
+    & tr:last-child{
+        & td:last-child{
+            background-color: yellow;
+        }
+    }
+    & tr:first-child{
+        & td:nth-child(3){
+            background-color: #b5651d;
+        }
+    }
+    & tr:nth-child(2){
+        & td:nth-child(4){
+            background-color: #b5651d;
+        }
+    }
+    & tr:nth-child(3){
+        & td:nth-child(5){
+            background-color: #b5651d;}
+    }
+    & tr:nth-child(4){
+        & td:last-child{
+            background-color: #b5651d;}
+    }
+    & tr:first-child{
+        & td:nth-child(4){
+            background-color: red;}
+    }
+    & tr:nth-child(2){
+        & td:nth-child(5){
+            background-color: red;}
+    }
+    & tr:nth-child(3){
+        & td:last-child{
+            background-color: red;}
+    }
+    & tr:first-child{
+        &  td:nth-child(5){
+            background-color: black;}
+        & td:last-child{
+            background-color: black;}
+    }
+    & tr:nth-child(2){
+        & td:last-child{
+            background-color: black;}        
+    }
+    & tr:nth-child(2){
+        & td:nth-child(2){
+            background-color: green;
+        }
+    }
+    & tr:nth-child(3){
+        & td:nth-child(2) , :nth-child(3){
+            background-color: green;}
+    }
+    & tr:nth-child(4){
+        & td:nth-child(2) , :nth-child(3) , :nth-child(4){
+            background-color: green;}
+    }
+    & tr:nth-child(5){
+        & td:nth-child(2) , :nth-child(3) , :nth-child(4) , :nth-child(5){
+            background-color: green;
+        }
+    }
+}
+.blue-heading{
+    text-align: center;
+    margin: 15px;
+    padding: 20px;
+    color: blue;
+    background-color: rgb(220, 220, 228);
+}
+.blue-table{
+    thead{
+            background-color: blue;
+        }
+    &  td:nth-child(4){
+        background-color: blue;
+        }
+    & tbody{
+        & td:first-child:hover{
+            background-color: lightblue;
+        }
+        & td:nth-child(2):hover{
+            background-color: lightblue;
+        }
+        & td:nth-child(3):hover{
+            background-color: lightblue;
+        }
+    }
+}
+.salmon-heading{
+    text-align: center;
+    margin: 15px;
+    padding: 20px;
+    background-color: rgb(220, 220, 228);
+    color: darksalmon;
+}
+.salmon-table{
+    & th{
+        background-color: lightgray;
+    }
+    & tr:nth-child(even){
+        background-color: darksalmon;
+    }
+    & td:nth-child(even){
+        background-color: darksalmon;
+
+    }
+}
+
+
+
+.lightpink-heading{
+    text-align: center;
+    margin: 15px;
+    padding: 20px;
+    color: rgb(59, 3, 3);
+    background-color: lightpink;
+}  
+.laptop-table{
+    & td{
+        width: 22%;
+    }    
+    & td:nth-child(5):hover{
+        font-size: 19px;
+    
+    & a:active{
+        color: pink;
+    }
+}
+    
+    & img{
+        max-width:50%;
+        max-height:50%;
+        margin: 20px;
+    }
+}
+
+.yellow-heading{
+    text-align: center;
+    margin: 15px;
+    padding: 20px;
+    color: rgb(59, 3, 3);
+    background-color: #ffba0d;
+}
+.MC-table{
+    td{
+        width: 23%;
+    }
+    & a:active{
+        color:#ffba0d ;
+    }
+    & img{
+        max-width: 50%;
+        max-height: 40%;
+        margin: 40px;
+        text-align: center;
+    }
+    & tr{
+        & td:first-child:hover{
+                font-size: 15px;
+            }
+        & td:last-child:hover{
+                font-size: 20px;
+            }
+        
+        }    
+    & tbody{
+        & tr:hover{
+            background-color: #ffba0d21;
+        }
+    }
+
+}
+.center-link{
+    display: block;
+    text-align: center;
+}
+.last-hr{
+    border: 5px solid rgb(46, 5, 5);
+}
+
+.School-heading{
+        margin: 15px;
+        padding: 20px;
+        background-color: green;
+        color: rgb(59, 3, 3);
+        text-align: center;
+}
+.school-table{
+    & thead{
+        & th{
+            background-color: rgb(144, 199, 144);
+        }
+    }
+    & tbody{
+        & td:first-child{
+            background-color: rgb(144, 199, 144);
+        }
+        & .history{
+            background-color: rgba(255, 166, 0, 0.904);
+        }
+        & .english{
+            background-color: rgba(255, 255, 0, 0.479);
+        }
+        & .physics{
+            background-color: rgba(128, 0, 128, 0.568);
+        }
+        & .chemisty{
+            background-color: rgba(0, 0, 126, 0.582);
+        }
+        & .Literature{
+            background-color: rgba(139, 0, 0, 0.788);
+        }
+        & .biology{
+            background-color: yellowgreen;
+        }
+        & .geography{
+            background-color: rgba(70, 18, 18, 0.712);
+        }
+        & .music{
+            background-color: pink;
+        }
+        & .computer{
+            background-color: lightseagreen ;
+        }
+        & .math{
+            background-color: rgba(11, 11, 216, 0.836);
+        }
+    }
+}
