@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Practice</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        [src="images/Century Towers Apartments.jpg"]{
+            width: 200px;
+            height: 150px;
+        }
+        h2{
+            text-align: center;
+            color: purple;
+            border: 4px solid lightpink;
+            background-color: pink;
+            padding: 10px;
+        }
+        *{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="#">
+        <h2>type=text</h2>
+        <label for="name">name</label>
+        <input type="text" name="name" id="name">
+        <input type="submit">
+
+        <br>
+
+        <label for="lname">last name</label>
+        <input type="text" name="lname" id="lname">
+        <input type="submit">
+
+        <h2>type=password</h2>
+        <label for="pass" id="pass">password</label>
+        <input type="password" name="pass" id="pass" size="10"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+        <input type="submit">
+
+        <h2>type=email</h2>
+        <label for="email" for="email">enter your email</label>
+
+        <br>
+
+        <input type="email" name="email" id="email">
+        <input type="submit">
+        <h2>type=radio</h2>
+
+        <label for="age">age </label>
+
+        <br>
+
+        <input type="radio" name="age" value="0-20">
+        <label for="age">0-20</label>
+        <input type="radio"  name="age" value="20-30">
+        <label for="age">20-30</label>
+        <input type="radio"  name="age" value="30-50">
+        <label for="age">30-50</label>
+        <input type="radio"  name="age"  value="50-100">
+        <label for="age">50-100</label>
+
+        <h2>type=number</h2>
+
+        <label for="num" id="num" >choose a number between 0-5</label>
+        <input type="number" id="num" min="0" max="5">
+        <h2>type=image</h2>
+        <input type="image" id="img" name="img" src="images/Century Towers Apartments.jpg">
+        <h2>type=range</h2>
+        <label for="num-range" id="num-range" for="num"> volume </label>
+        <input type="range" name="num-range" id="num-range" min="10" max="100">
+        <h2>type=search</h2>
+        <label for="searchbar">Google</label>
+
+        <br>
+
+        <input type="search">
+
+        <h2>type=file</h2>
+        <label for="file" form="file">choose your file</label>
+
+        <br>
+
+        <input type="file" id="file" name="file">
+
+        <h2>type=checkbox</h2>
+        <label for="checkbox" for="checkbox"> choose </label>
+
+        <br>
+        <input type="checkbox" name="checkbox" id="checkbox" value="Car">
+        <label for="checkbox"> Car </label>
+        <input type="checkbox" name="checkbox" id="checkbox" value="Motor">
+        <label for="checkbox">Motor</label>
+        <br>
+        <input type="submit" name="Submit" id="submit">
+
+        <h2>type=date</h2>
+        <label for="datetime">select time</label>
+        <input type="date" name="date" id="date">
+
+        <h2>type=tel</h2>
+        <label for="tel">your phone number</label>
+        <input type="tel" name="tel" id="tel" maxlength="11">
+
+
+
+
+
+
+
+        
+        
+
+
+    </form>
+    
+</body>
+</html>
