@@ -1,0 +1,215 @@
+@use"all";
+.bg-main-top{
+    background: url(../img/undraw_undraw_chatting_lt27_d787.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    min-height: 40rem;
+  
+}
+.navigation{
+    padding-bottom: 5rem;
+    // background-color: lightcoral;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    & ul{
+        padding-left: 0;
+        display: flex;
+        list-style: none;
+        & li:first-child{
+            padding-left: 0;
+        }
+        & li{
+            padding: 1rem;
+            & a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+
+    }
+    button{
+        width: 100px;
+        color: white;
+        background-color: navy;
+        padding: 12px;
+        border-radius: 5px;
+        border: none;
+    }
+}
+.introduce{
+    width: 35%;
+    & .buttons{
+        margin-top: 2rem;
+    }
+    .purchase-butt{
+        cursor: pointer;
+        background-color: navy;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        margin-right: 20px;
+    }
+    .learn-butt{
+        cursor: pointer;
+        padding: 10px;
+        border: 1px solid navy;
+        border-radius: 5px;
+
+    }
+}
+.bg-2{
+    background: url(../img/mobile.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-right: 6rem;
+
+
+
+}
+.title-sec{
+    margin-bottom: 100px;
+    width: 35%;
+    & .title-icons{
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        & p{
+            text-align: left;
+            padding-right: 20px;
+        }
+    }
+}
+
+
+.flower-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+    & img{
+        width: 420px;
+        height: 310px;
+    }
+    & .flower-text{
+        width: 35%;
+    }
+}
+.swan-sec{
+    margin-top: 6rem ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+
+    & img{
+        width: 500px;
+        height: 310px;
+    }
+    & .swan-text{
+        width: 35%;
+
+    }
+}
+
+.social-sec{
+    margin-top: 6rem;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    & img{
+        width: 520px;
+        height: 300px;
+    }
+    .social-text{
+        width: 35%;
+    }
+    & button{
+        color: white;
+        background-color: navy;
+        border: none;
+        border-radius: 5px;
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+}
+.top-footer{
+    // width: 40%;
+    background:linear-gradient( rgb(223, 223, 223),rgb(155, 155, 155));
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    & p{
+        text-align: center;
+    }
+    .price{
+        font-size: 30px;
+        margin-bottom: -12px;
+    }
+    & .price-butt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        & button{
+            color: white;
+            background-color: navy;
+            border: none;
+            border-radius: 5px;
+            padding: 13px;
+            cursor: pointer;
+        }
+
+
+    }
+}
+hr{
+    border: 1px solid rgb(177, 176, 176);
+}
+.main-footer{
+    background-color: gray;
+}
+.company{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 1rem;
+    & button{
+        color: white;
+        background-color: navy;
+        border: none;
+        border-radius: 5px;
+        padding: 13px;
+        cursor: pointer;
+    }
+}
+.social-contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    & ul{
+        display: flex;
+        padding-left: 0;
+        & li:first-child{
+            padding-left: 0;
+        }
+        & li{
+            padding: 1rem;
+            list-style: none;
+            & a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+
+
+    }
+
+}
+
