@@ -1,0 +1,37 @@
+@use"all";
+.bg-cream{
+    background-color: #ded3ca;
+    height: 100vh;
+
+}
+.nav-list{
+    & a{
+        color: black;
+        text-decoration: none;
+        padding: 1rem;
+    }
+    & li:last-child{
+        & a{
+            color: white;
+            background-color: black;
+            border-radius: 40px;
+        }
+    }
+}
+.barner{
+    font-size: 22px;
+}
+.befashionable{
+    margin-top: 6rem;
+    & div{
+        font-size: 60px;
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+    & p{
+        margin-top: 2rem;
+    }
+    
+}
+.apple-store{
+    width: 806px;
+}

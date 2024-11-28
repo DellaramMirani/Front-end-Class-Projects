@@ -1,0 +1,51 @@
+@use "all";
+.bg-main{
+    background: url(../images/inn.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.half-white{
+    background-color: rgba(255, 255, 255, 0.918);
+    height: 100%;
+}
+.logo{
+    font-size: 28px;
+}
+.bigA{
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+}
+.list{
+    padding-left: 0;
+    & li{
+       
+        padding: 6px;
+    }
+    & a{
+        color: black;
+        text-decoration: none;
+        margin-top: 1rem;
+    }
+}
+.heading{
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.links{
+    margin-top: 2rem;
+    gap: 10px;
+    & a:first-child{
+        color: white;
+        text-decoration: none;
+        background-color: #048ecb;
+        padding: 1rem;
+    }
+    & a:last-child{
+        color: black;
+        text-decoration: none;
+        background-color: #f4f6f7;
+        padding: 1rem;
+    }
+}

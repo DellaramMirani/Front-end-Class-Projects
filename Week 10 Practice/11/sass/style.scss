@@ -1,0 +1,123 @@
+@use "all";
+.top-parent{
+    .li{
+        width: 300px;
+        height: 60px;
+        position: relative;
+        border: 1px solid black;
+        box-shadow: 1px 1px #2c2c2c;
+        padding: 1rem;
+    }
+    & .li:hover{
+        .child{
+            display: block;
+        }
+    }
+}
+.child{
+    display: none;
+    position: absolute;
+    top: 3.7rem;
+    left: 0;
+    width: 600px;
+    list-style: none;
+    border: 2px solid red;
+    & li{
+        padding: 1rem;
+        cursor:pointer;
+    }
+}
+
+
+
+
+
+
+
+.childd{
+    display: none;
+}
+.drop-down-menu{
+    .li{
+        text-align: center;
+        width: 300px;
+        padding: 1rem;
+        position: relative; 
+    }
+    .li:first-child{
+        background-color: red;
+    }
+    .li:nth-child(2){
+        background-color: green;
+
+    }
+    .li:nth-child(3){
+        background-color: blue;
+
+    }
+    .li:last-child{
+        background-color: rgb(255, 119, 0);
+
+    }
+    .childd{
+        position: absolute;
+        top: 3.1rem;
+        right: 0;
+        width: 600px;
+        padding: 1rem;
+    }
+    .li:hover{
+        .childd{
+            display: block;
+        }
+    }
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 2rem;
+}
+.bg-red{
+    background-color: red;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-blue{
+    background-color: blue;
+}
+.bg-orange{
+    background-color: orange;
+}
+// DijiKala
+.main-parent{
+    & .li-d{
+        position: relative;
+        border: 1px solid red;
+        background-color: rgba(255, 0, 0, 0.185);
+        width: 200px;
+        height: 120px;
+        padding: 1rem;
+        font-size: 25px;
+        text-align: center;
+    }
+    & .li-d:hover{
+        .child-d{
+            display: block;
+        }
+    }
+    .child-d{
+        font-size: 18px;
+        display: none;
+        width: 250px;
+        height: 680px;
+        border: 2px solid red;
+        padding: 1rem;
+        line-height: 2rem;
+        position: absolute;
+        right: 12.4rem;
+        top: 0;
+    }
+
+}
